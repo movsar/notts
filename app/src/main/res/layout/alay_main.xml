@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alay_main_txtInput" />
+
+    <EditText
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/alay_main_nmrDuration"
+        android:layout_gravity="right"
+        android:text="160" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Юхалатайе!"
+        android:id="@+id/alay_main_btnRefresh"
+        android:layout_gravity="right" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Схьадийца!"
+        android:id="@+id/alay_main_btnPlay"
+        android:layout_gravity="right" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alay_main_prgRefresh"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
